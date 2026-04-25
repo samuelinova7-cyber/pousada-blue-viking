@@ -111,7 +111,7 @@ function RoomCard({ room }: { room: typeof rooms[0] }) {
 
         <div className="pt-6">
           <a
-            href="https://wa.me/5582999999999"
+            href="https://hbook.hsystem.com.br/Booking/IndexMobile?companyId=5db09069ab41d412a0feb4a1&utm_medium=social&utm_source=ig&utm_content=link_in_bio&utm_id=97760_v0_s00_e0_tv3_a1dennhdgo0hl4"
             target="_blank"
             rel="noreferrer"
             className="flex items-center justify-center gap-3 w-full p-4 bg-viking-gold text-white font-display font-bold uppercase tracking-widest text-xs hover:bg-viking-blue transition-all shadow-md"

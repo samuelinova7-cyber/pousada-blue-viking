@@ -19,6 +19,16 @@ export default function Footer() {
                <div className="w-2 h-2 bg-viking-gold rotate-45" />
                <span>📍 Av. Caravelas, 321 — Praia do Francês, Marechal Deodoro – AL</span>
              </div>
+             <div className="flex items-center gap-4 mt-2">
+                <div className="flex items-center gap-2">
+                  <Phone size={10} className="text-viking-gold" />
+                  <span>(82) 98812 8379</span>
+                </div>
+                <a href="https://www.instagram.com/pousada.blue.viking?igsh=ajY5bHZjZTN1cnhq" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-viking-gold transition-colors">
+                  <Instagram size={10} className="text-viking-gold" />
+                  <span>@pousada.blue.viking</span>
+                </a>
+              </div>
            </div>
         </div>
       </div>

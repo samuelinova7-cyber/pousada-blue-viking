@@ -31,13 +31,16 @@ export default function Hero() {
 
       {/* Booking Bar (Simplified) */}
       <div className="max-w-7xl mx-auto px-4 -mt-12 sm:-mt-16 relative z-10 flex justify-center">
-        <motion.button 
+        <motion.a 
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="bg-viking-gold text-white font-display font-bold text-xl sm:text-2xl tracking-widest px-12 sm:px-20 py-6 sm:py-8 hover:bg-viking-blue transition-all uppercase whitespace-nowrap shadow-2xl"
+          href="https://hbook.hsystem.com.br/Booking/IndexMobile?companyId=5db09069ab41d412a0feb4a1&utm_medium=social&utm_source=ig&utm_content=link_in_bio&utm_id=97760_v0_s00_e0_tv3_a1dennhdgo0hl4"
+          target="_blank"
+          rel="noreferrer"
+          className="bg-viking-gold text-white font-display font-bold text-xl sm:text-2xl tracking-widest px-12 sm:px-20 py-6 sm:py-8 hover:bg-viking-blue transition-all uppercase whitespace-nowrap shadow-2xl flex items-center justify-center cursor-pointer"
         >
           Consultar Valores
-        </motion.button>
+        </motion.a>
       </div>
 
       {/* Intro Text Section */}
@@ -95,15 +98,7 @@ export default function Hero() {
              }}
              className="absolute top-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/50 to-transparent -skew-x-12 pointer-events-none"
           />
-          {/* Gallery navigation simulation */}
-          <div className="absolute inset-0 flex items-center justify-between p-4 pointer-events-none">
-            <div className="w-10 h-10 bg-black/30 backdrop-blur-sm flex items-center justify-center text-white cursor-pointer pointer-events-auto hover:bg-viking-blue transition-colors">
-              <ChevronDown className="rotate-90" />
-            </div>
-            <div className="w-10 h-10 bg-black/30 backdrop-blur-sm flex items-center justify-center text-white cursor-pointer pointer-events-auto hover:bg-viking-blue transition-colors">
-              <ChevronDown className="-rotate-90" />
-            </div>
-          </div>
+          {/* Gallery navigation simulation removed per request */}
         </motion.div>
       </div>
     </section>

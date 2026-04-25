@@ -8,7 +8,7 @@ export default function WhatsAppChat() {
       <div className="absolute inset-0 bg-[#25D366] rounded-full blur-xl opacity-40 animate-pulse" />
       
       <motion.a
-        href="https://wa.me/5582999999999?text=Olá!%20Gostaria%20de%20fazer%20uma%20reserva%20na%20Blue%20Viking."
+        href="https://wa.me/5582988128379?text=Olá!%20Gostaria%20de%20fazer%20uma%20reserva%20na%20Pousada%20Blue%20Viking."
         target="_blank"
         rel="noreferrer"
         initial={{ scale: 0, opacity: 0 }}

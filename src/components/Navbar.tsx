@@ -10,7 +10,7 @@ export default function Navbar() {
     { name: 'INÍCIO', href: '#início' },
     { name: 'QUARTOS', href: '#acomodações' },
     { name: 'SERVIÇOS', href: '#estrutura' },
-    { name: 'CONTATO', href: 'https://wa.me/5582999999999' }
+    { name: 'CONTATO', href: 'https://wa.me/5582988128379' }
   ];
 
   return (

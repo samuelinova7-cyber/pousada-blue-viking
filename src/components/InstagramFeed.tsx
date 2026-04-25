@@ -73,7 +73,7 @@ export default function InstagramFeed() {
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="https://instagram.com/pousadablueviking"
+            href="https://www.instagram.com/pousada.blue.viking?igsh=ajY5bHZjZTN1cnhq"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-3 bg-viking-blue text-white px-8 py-4 rounded-sm font-bold uppercase tracking-widest text-xs hover:bg-viking-gold transition-all shadow-md"
