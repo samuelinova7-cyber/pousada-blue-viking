@@ -29,7 +29,7 @@ export default function GuestGuidelines() {
   ];
 
   return (
-    <section className="bg-viking-slate py-24 border-t border-viking-gold/30">
+    <section className="bg-white py-24 border-t border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="text-center mb-16">
@@ -38,11 +38,11 @@ export default function GuestGuidelines() {
                 <Info className="-rotate-45 text-viking-gold w-5 h-5" />
              </div>
           </div>
-          <h2 className="font-heading text-5xl md:text-7xl text-white uppercase drop-shadow-lg mb-4">
+          <h2 className="font-heading text-4xl md:text-6xl text-viking-blue uppercase mb-4">
             GUIA DO <span className="text-viking-gold">HÓSPEDE</span>
           </h2>
-          <p className="font-serif text-viking-gold-bright opacity-50 italic text-xl">
-            "Regulamento Interno & Informações Vitais"
+          <p className="font-sans text-gray-500 italic text-lg">
+            Regras simples para uma boa convivência
           </p>
         </div>
 
@@ -53,25 +53,25 @@ export default function GuestGuidelines() {
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="bg-viking-dark border border-viking-gold/20 p-8 sm:p-12 shadow-2xl relative overflow-hidden group"
+            className="bg-viking-blue p-8 sm:p-12 shadow-xl relative overflow-hidden"
           >
-            <div className="absolute top-0 right-0 p-8 opacity-5 text-viking-gold">
+            <div className="absolute top-0 right-0 p-8 opacity-10 text-white">
               <Clock size={120} />
             </div>
             
-            <h3 className="font-heading text-3xl text-white uppercase mb-8 border-b border-viking-gold/20 pb-4">
+            <h3 className="font-heading text-3xl text-white uppercase mb-8 border-b border-white/20 pb-4">
               🕒 Horários
             </h3>
             
             <div className="space-y-8">
               {schedules.map((item, idx) => (
-                <div key={idx} className="flex items-center gap-6 group/item">
-                  <div className="w-12 h-12 bg-viking-slate border border-viking-gold/30 flex items-center justify-center group-hover/item:border-viking-gold transition-colors">
+                <div key={idx} className="flex items-center gap-6">
+                  <div className="w-12 h-12 bg-white/10 border border-white/20 flex items-center justify-center">
                     <item.icon className="text-viking-gold" size={20} />
                   </div>
                   <div>
-                    <span className="block text-[10px] uppercase tracking-[0.2em] text-white/40 font-bold mb-1">{item.label}</span>
-                    <span className="text-viking-gold-bright font-heading text-2xl">{item.time}</span>
+                    <span className="block text-[10px] uppercase tracking-[0.2em] text-white/60 font-bold mb-1">{item.label}</span>
+                    <span className="text-white font-heading text-2xl">{item.time}</span>
                   </div>
                 </div>
               ))}
@@ -83,39 +83,39 @@ export default function GuestGuidelines() {
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="bg-white p-8 sm:p-12 shadow-2xl relative overflow-hidden group"
+            className="bg-gray-50 p-8 sm:p-12 shadow-xl relative overflow-hidden border border-gray-100"
           >
-            <div className="absolute top-0 right-0 p-8 opacity-5 text-viking-dark">
+            <div className="absolute top-0 right-0 p-8 opacity-5 text-viking-blue">
               <Ban size={120} />
             </div>
             
-            <h3 className="font-heading text-3xl text-viking-dark uppercase mb-8 border-b border-viking-dark/10 pb-4">
+            <h3 className="font-heading text-3xl text-viking-blue uppercase mb-8 border-b border-viking-blue/10 pb-4">
               🚫 Regras da Piscina
             </h3>
             
-            <p className="text-viking-dark/60 text-sm font-serif italic mb-8">
+            <p className="text-gray-500 text-sm italic mb-8">
               Para garantir a segurança e o conforto de todos, não é permitido:
             </p>
             
             <div className="space-y-6">
               {rules.map((rule, idx) => (
-                <div key={idx} className="flex items-start gap-4 p-4 border-l-2 border-viking-dark/10 hover:border-viking-gold hover:bg-viking-dark/5 transition-all">
-                  <div className="text-viking-dark mt-1">
+                <div key={idx} className="flex items-start gap-4 p-4 border-l-2 border-gray-200 hover:border-viking-gold hover:bg-white transition-all">
+                  <div className="text-viking-blue mt-1">
                     <rule.icon size={20} />
                   </div>
-                  <span className="text-viking-dark/80 font-sans text-sm font-medium leading-relaxed">
+                  <span className="text-gray-600 font-sans text-sm font-medium leading-relaxed">
                     {rule.text}
                   </span>
                 </div>
               ))}
             </div>
 
-            <div className="mt-12 p-6 bg-viking-dark text-viking-gold-bright rounded-none border-l-4 border-viking-gold">
+            <div className="mt-12 p-6 bg-viking-blue text-white rounded-none border-l-4 border-viking-gold">
               <div className="flex items-center gap-3 mb-2">
                 <Info size={16} className="text-viking-gold" />
-                <span className="font-heading text-sm uppercase tracking-wider">Atenção</span>
+                <span className="font-heading text-sm uppercase tracking-wider font-bold tracking-widest">Atenção</span>
               </div>
-              <p className="text-xs opacity-60 leading-relaxed font-sans">
+              <p className="text-xs opacity-80 leading-relaxed font-sans">
                 O uso da piscina é exclusivo para hóspedes. Visitantes não têm acesso às áreas de lazer da pousada.
               </p>
             </div>

@@ -1,53 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --font-display: "Cinzel Decorative", serif;
-  --font-serif: "Cormorant Garamond", serif;
-  --font-heading: "Playfair Display", serif;
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-accent: "Montserrat", sans-serif;
+  --font-display: "Montserrat", sans-serif;
+  --font-heading: "Montserrat", sans-serif;
+  --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Open Sans", serif;
 
-  --color-viking-blue: #0A1622;
-  --color-viking-gold: #d4af37;
-  --color-viking-gold-bright: #F5F2ED;
-  --color-viking-dark: #0A1622;
-  --color-viking-slate: #07111A;
-  --color-viking-black: #050B12;
+  --color-viking-blue: #004ca3;
+  --color-viking-gold: #d4a31a;
+  --color-viking-dark: #333333;
+  --color-viking-slate: #f4f4f4;
+  --color-viking-black: #1a1a1a;
 }
 
 @layer base {
   body {
-    @apply bg-viking-dark text-viking-gold-bright font-serif antialiased;
+    @apply bg-white text-viking-dark font-sans antialiased;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-heading font-black tracking-tighter;
+    @apply font-heading font-bold;
   }
 }
 
-.text-gold {
-  color: var(--color-viking-gold);
-}
-
-.bg-gold {
-  background-color: var(--color-viking-gold);
-}
-
-.border-gold {
-  border-color: var(--color-viking-gold);
-}
-
 .shadow-gold {
-  box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
-}
-
-.viking-gradient {
-  background: linear-gradient(to bottom, rgba(0, 35, 102, 0.8), rgba(10, 10, 11, 1));
+  box-shadow: 0 4px 20px rgba(212, 163, 26, 0.2);
 }
 
 .texture-overlay {
-  background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png");
-  opacity: 0.1;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  opacity: 0.05;
 }
 

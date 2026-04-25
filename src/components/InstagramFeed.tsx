@@ -59,14 +59,14 @@ export default function InstagramFeed() {
   }, [Autoplay({ delay: 3000, stopOnInteraction: false })]);
 
   return (
-    <section className="bg-viking-dark py-24 border-t border-viking-gold/20">
+    <section className="bg-white py-24 border-t border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="flex flex-col md:flex-row items-center justify-between mb-12 gap-8 text-center md:text-left">
           <div>
-            <span className="text-viking-gold font-sans text-xs uppercase tracking-[0.3em] font-bold block mb-4">Explore nossa Rotina</span>
-            <h2 className="font-heading text-5xl text-white uppercase drop-shadow-lg">
-              EXPERIÊNCIA <span className="text-viking-gold">BLUE VIKING</span>
+            <span className="text-viking-gold font-sans text-xs uppercase tracking-[0.3em] font-bold block mb-2">Explore nossa Rotina</span>
+            <h2 className="font-heading text-4xl md:text-5xl text-viking-blue uppercase">
+              EXPERIÊNCIA <span className="text-viking-gold">INSTAGRAM</span>
             </h2>
           </div>
           
@@ -76,7 +76,7 @@ export default function InstagramFeed() {
             href="https://instagram.com/pousadablueviking"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-3 bg-viking-gold text-viking-dark px-8 py-4 rounded-sm font-bold uppercase tracking-widest text-xs hover:bg-white transition-all shadow-gold"
+            className="flex items-center gap-3 bg-viking-blue text-white px-8 py-4 rounded-sm font-bold uppercase tracking-widest text-xs hover:bg-viking-gold transition-all shadow-md"
           >
             <Instagram size={20} />
             <span>Seguir no Instagram</span>
@@ -97,8 +97,8 @@ export default function InstagramFeed() {
           </div>
           
           {/* Decorative Sidings */}
-          <div className="absolute top-0 left-0 h-full w-20 bg-gradient-to-r from-viking-dark to-transparent pointer-events-none z-10" />
-          <div className="absolute top-0 right-0 h-full w-20 bg-gradient-to-l from-viking-dark to-transparent pointer-events-none z-10" />
+          <div className="absolute top-0 left-0 h-full w-20 bg-gradient-to-r from-white to-transparent pointer-events-none z-10" />
+          <div className="absolute top-0 right-0 h-full w-20 bg-gradient-to-l from-white to-transparent pointer-events-none z-10" />
         </div>
 
       </div>
