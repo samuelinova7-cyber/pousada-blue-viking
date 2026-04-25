@@ -121,7 +121,7 @@ export default function Reviews() {
 
         <div className="mt-12 text-center">
             <motion.a
-                href="https://www.google.com/search?q=Pousada+Blue+Viking+Praia+do+Frances+avaliacoes"
+                href="https://g.page/r/Cf-DMehcF73UEAE/review"
                 target="_blank"
                 rel="noreferrer"
                 animate={{ scale: [1, 1.05, 1] }}

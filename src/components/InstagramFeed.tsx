@@ -5,6 +5,7 @@ import { Instagram, Volume2, VolumeX } from 'lucide-react';
 import React, { useState, useRef } from 'react';
 
 const instagramVideos = [
+  "https://res.cloudinary.com/dqukldtq1/video/upload/v1777149452/WhatsApp_Video_2026-04-25_at_10.31.22_AM_lklq0w.mp4",
   "https://res.cloudinary.com/dqukldtq1/video/upload/v1776989981/SnapInsta.to_AQPYmIYrUfXjPl5rZRim-9fwvYpw-Y9kmFuhsCxYFOA_avGn-4ybglHLkWjMhgstAoup53k5QlOKB6hE-JTxOe1v_csov0f.mp4",
   "https://res.cloudinary.com/dqukldtq1/video/upload/v1776989987/WhatsApp_Video_2026-04-23_at_9.11.33_PM_cxc4cf.mp4",
   "https://res.cloudinary.com/dqukldtq1/video/upload/v1776989991/SnapInsta.to_AQNN2XIr0nC8eqvzoRe-V2H5kRtu4u_KIj0O88DrhS1y_EPIa2TA_aqhnU67p2IiiMh8bmDCVcbDSGedKenNq0sM_etbzhp.mp4",

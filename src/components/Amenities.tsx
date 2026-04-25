@@ -8,7 +8,6 @@ const poolImages = [
   "https://res.cloudinary.com/dqukldtq1/image/upload/v1776982618/WhatsApp_Image_2026-04-23_at_5.28.26_PM_1_v9t8hs.jpg",
   "https://res.cloudinary.com/dqukldtq1/image/upload/v1776982618/WhatsApp_Image_2026-04-23_at_5.28.26_PM_3_qrzsmd.jpg",
   "https://res.cloudinary.com/dqukldtq1/image/upload/v1776982619/WhatsApp_Image_2026-04-23_at_5.28.33_PM_2_ckmlcu.jpg",
-  "https://res.cloudinary.com/dqukldtq1/image/upload/v1776982619/WhatsApp_Image_2026-04-23_at_5.28.27_PM_ehzltv.jpg",
   "https://res.cloudinary.com/dqukldtq1/image/upload/v1776982619/WhatsApp_Image_2026-04-23_at_5.28.33_PM_ugpt9y.jpg",
   "https://res.cloudinary.com/dqukldtq1/image/upload/v1776982620/WhatsApp_Image_2026-04-23_at_5.28.33_PM_1_zubfum.jpg",
   "https://res.cloudinary.com/dqukldtq1/image/upload/v1776982620/WhatsApp_Image_2026-04-23_at_5.28.35_PM_vvbgb2.jpg",

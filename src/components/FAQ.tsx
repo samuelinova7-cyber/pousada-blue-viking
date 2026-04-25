@@ -118,7 +118,7 @@ export default function FAQ() {
               </div>
             </div>
 
-            <div className="aspect-square md:aspect-auto w-full grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-700 overflow-hidden border-l border-viking-gold/20">
+            <div className="aspect-square md:aspect-auto w-full transition-all duration-700 overflow-hidden border-l border-viking-gold/20">
                <iframe
                  title="Mapa da Pousada"
                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15725.130124239857!2d-35.85040715!3d-9.7691523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x701237a354c46f1%3A0x6b7a5a87ba2df46b!2sAv.%20Caravelas%2C%20321%20-%20Praia%20do%20Franc%C3%AAs%2C%20Marechal%20Deodoro%20-%20AL%2C%2057160-000!5e0!3m2!1spt-BR!2sbr!4v1713900000000!5m2!1spt-BR!2sbr"

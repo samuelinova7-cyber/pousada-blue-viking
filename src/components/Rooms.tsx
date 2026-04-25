@@ -9,8 +9,8 @@ const rooms = [
     type: "Para 2 Pessoas",
     description: "Um cantinho aconchegante pra você e seu acompanhante. Tem ar-condicionado, TV, frigobar e banheiro com secador. Lugar perfeito pra descansar depois da praia.",
     images: [
-      "https://res.cloudinary.com/dqukldtq1/image/upload/v1777080059/Captura_de_tela_2026-04-24_215227_dvvogh.png",
-      "https://res.cloudinary.com/dqukldtq1/image/upload/v1777080059/Captura_de_tela_2026-04-24_215300_eddy6l.png"
+      "https://res.cloudinary.com/dqukldtq1/image/upload/v1777080059/Captura_de_tela_2026-04-24_215300_eddy6l.png",
+      "https://res.cloudinary.com/dqukldtq1/image/upload/v1777148764/WhatsApp_Image_2026-04-25_at_4.49.31_PM_2_b9x26l.jpg"
     ],
     icon: User
   },
@@ -20,9 +20,9 @@ const rooms = [
     type: "Para 3 Pessoas",
     description: "Ideal pra família pequena ou amigos. Quarto completo com ar-condicionado, TV e frigobar. Banheiro limpinho com secador pra sua comodidade.",
     images: [
-      "https://res.cloudinary.com/dqukldtq1/image/upload/v1777080059/Captura_de_tela_2026-04-24_215516_sz4yn0.png",
       "https://res.cloudinary.com/dqukldtq1/image/upload/v1777080059/Captura_de_tela_2026-04-24_215300_eddy6l.png",
-      "https://res.cloudinary.com/dqukldtq1/image/upload/v1777080061/Captura_de_tela_2026-04-24_215429_kr3lti.png"
+      "https://res.cloudinary.com/dqukldtq1/image/upload/v1777149331/WhatsApp_Image_2026-04-25_at_4.49.32_PM_1_stmt7k.jpg",
+      "https://res.cloudinary.com/dqukldtq1/image/upload/v1777149385/WhatsApp_Image_2026-04-25_at_4.49.31_PM_1_rllnp1.jpg"
     ],
     icon: Users
   },
@@ -32,8 +32,8 @@ const rooms = [
     type: "Para 4 Pessoas",
     description: "Espaço pra todo mundo! Quarto grande com ar-condicionado, TV e frigobar. Tudo organizado pra sua família curtir o Francês com conforto.",
     images: [
-      "https://res.cloudinary.com/dqukldtq1/image/upload/v1777080062/Captura_de_tela_2026-04-24_215547_uur9v1.png",
-      "https://res.cloudinary.com/dqukldtq1/image/upload/v1777080063/Captura_de_tela_2026-04-24_215531_c1pe0a.png",
+      "https://res.cloudinary.com/dqukldtq1/image/upload/v1777149331/WhatsApp_Image_2026-04-25_at_4.49.32_PM_kuoipg.jpg",
+      "https://res.cloudinary.com/dqukldtq1/image/upload/v1777148759/WhatsApp_Image_2026-04-25_at_4.49.31_PM_3_k5uj45.jpg",
       "https://res.cloudinary.com/dqukldtq1/image/upload/v1777080059/Captura_de_tela_2026-04-24_215300_eddy6l.png"
     ],
     icon: UsersRound
@@ -89,7 +89,7 @@ function RoomCard({ room }: { room: typeof rooms[0] }) {
           <span className="font-sans text-[10px] uppercase tracking-[0.2em] text-viking-gold font-bold block">{room.type}</span>
         </div>
         
-        <p className="text-gray-600 text-sm leading-relaxed h-20 overflow-hidden">
+        <p className="text-gray-600 text-sm leading-relaxed mb-4">
           {room.description}
         </p>
 
@@ -151,9 +151,9 @@ export default function Rooms() {
              <Info size={20} />
            </div>
            <div>
-             <h4 className="text-viking-blue font-bold uppercase text-sm tracking-widest mb-1">Dica importante</h4>
+             <h4 className="text-viking-blue font-bold uppercase text-sm tracking-widest mb-1">Wi-Fi GRÁTIS</h4>
              <p className="text-gray-600 text-sm">
-               Nosso Wi-Fi funciona muito bem em todas as <strong>áreas comuns</strong> da pousada. Assim você se desconecta do mundo dentro do quarto e aproveita o jardim e a piscina pra postar suas fotos!
+               Nosso Wi-Fi é <strong>totalmente gratuito</strong> e funciona muito bem em todas as <strong>áreas comuns</strong> da pousada. Assim você se desconecta do mundo dentro do quarto e aproveita o jardim e a piscina pra postar suas fotos!
              </p>
            </div>
         </div>

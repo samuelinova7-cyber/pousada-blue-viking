@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section id="início" className="relative pt-[128px] sm:pt-[160px]">
       {/* Main Hero Image */}
-      <div className="relative h-[400px] sm:h-[600px] overflow-hidden group">
+      <div className="relative h-[500px] sm:h-[800px] overflow-hidden group">
         <img
           src="https://res.cloudinary.com/dqukldtq1/image/upload/v1776978147/WhatsApp_Image_2026-04-23_at_5.28.20_PM_plggzt.jpg"
           alt="Pousada Blue Viking"
@@ -82,7 +82,7 @@ export default function Hero() {
           <img
             src="https://res.cloudinary.com/dqukldtq1/image/upload/v1776978423/WhatsApp_Image_2026-04-23_at_5.28.20_PM_1_fwjebi.jpg"
             alt="Fachada Blue Viking"
-            className="w-full aspect-[4/3] object-cover transition-transform duration-700 group-hover:scale-110"
+            className="w-full h-auto transition-transform duration-700 group-hover:scale-110"
           />
           {/* Animated Shine Effect */}
           <motion.div
